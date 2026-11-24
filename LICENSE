@@ -1,0 +1,45 @@
+MIT License
+
+Copyright (c) 2026 PPE Construction Safety Demo contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---------------------------------------------------------------------------
+THIRD-PARTY ASSETS (NOT covered by the MIT license above)
+---------------------------------------------------------------------------
+
+Dataset
+  Roboflow Universe -- "construction-safety-gsnvb" (roboflow-100 family)
+  License: CC BY 4.0
+  Obtained via the Hugging Face mirror:
+    hf-mirror.com/datasets/LibreYOLO/construction-safety-gsnvb
+  1206 images (997 train / 119 valid / 90 test) with YOLO-format labels.
+  If you redistribute the images you must keep the CC BY 4.0 attribution.
+
+Model weights
+  Hugging Face -- "mancalazure/construction-ppe-safety"  (best.onnx)
+  License: CC BY 4.0
+  YOLOv8n fine-tuned on Roboflow "construction-site-safety v28",
+  exported to ONNX (opset 12), 12,245,828 bytes.
+  SHA256 1D5F3CF69883E89BA6E2B3836A0B21623044E9A682F1F00DFBACAC97B99BAF94
+
+Screenshots / rendered overlays under web/assets*, demo*/ and the photos in
+test/, valid/, train/ are derived from the dataset above and therefore remain
+CC BY 4.0. All photographs contain real human faces; they are used for a
+classroom demo only and must not be redistributed as a face dataset.

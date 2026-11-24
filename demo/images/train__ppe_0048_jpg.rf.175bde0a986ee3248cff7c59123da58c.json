@@ -1,0 +1,711 @@
+{
+  "version": "4.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "反光背心",
+      "score": 0.933,
+      "points": [
+        [
+          313.74,
+          205.79
+        ],
+        [
+          382.04,
+          205.79
+        ],
+        [
+          382.04,
+          322.76
+        ],
+        [
+          313.74,
+          322.76
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "反光背心",
+      "score": 0.9241,
+      "points": [
+        [
+          49.99,
+          215.66
+        ],
+        [
+          148.96,
+          215.66
+        ],
+        [
+          148.96,
+          413.61
+        ],
+        [
+          49.99,
+          413.61
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "人",
+      "score": 0.921,
+      "points": [
+        [
+          518.22,
+          104.21
+        ],
+        [
+          566.76,
+          104.21
+        ],
+        [
+          566.76,
+          266.1
+        ],
+        [
+          518.22,
+          266.1
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "人",
+      "score": 0.8994,
+      "points": [
+        [
+          585.08,
+          123.64
+        ],
+        [
+          632.33,
+          123.64
+        ],
+        [
+          632.33,
+          265.64
+        ],
+        [
+          585.08,
+          265.64
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "人",
+      "score": 0.8831,
+      "points": [
+        [
+          438.61,
+          117.18
+        ],
+        [
+          504.27,
+          117.18
+        ],
+        [
+          504.27,
+          287.18
+        ],
+        [
+          438.61,
+          287.18
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "反光背心",
+      "score": 0.8801,
+      "points": [
+        [
+          250.67,
+          151.27
+        ],
+        [
+          289.61,
+          151.27
+        ],
+        [
+          289.61,
+          228.01
+        ],
+        [
+          250.67,
+          228.01
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "人",
+      "score": 0.8616,
+      "points": [
+        [
+          244.55,
+          118.07
+        ],
+        [
+          299.89,
+          118.07
+        ],
+        [
+          299.89,
+          315.51
+        ],
+        [
+          244.55,
+          315.51
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "人",
+      "score": 0.8425,
+      "points": [
+        [
+          291.31,
+          154.9
+        ],
+        [
+          398.06,
+          154.9
+        ],
+        [
+          398.06,
+          492.47
+        ],
+        [
+          291.31,
+          492.47
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "人",
+      "score": 0.84,
+      "points": [
+        [
+          183.03,
+          106.54
+        ],
+        [
+          226.69,
+          106.54
+        ],
+        [
+          226.69,
+          287.7
+        ],
+        [
+          183.03,
+          287.7
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "安全帽",
+      "score": 0.8393,
+      "points": [
+        [
+          109.32,
+          177.99
+        ],
+        [
+          152.48,
+          177.99
+        ],
+        [
+          152.48,
+          234.63
+        ],
+        [
+          109.32,
+          234.63
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "反光背心",
+      "score": 0.8264,
+      "points": [
+        [
+          527.74,
+          125.24
+        ],
+        [
+          557.83,
+          125.24
+        ],
+        [
+          557.83,
+          183.76
+        ],
+        [
+          527.74,
+          183.76
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "反光背心",
+      "score": 0.8198,
+      "points": [
+        [
+          592.4,
+          150.83
+        ],
+        [
+          625.58,
+          150.83
+        ],
+        [
+          625.58,
+          200.57
+        ],
+        [
+          592.4,
+          200.57
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "反光背心",
+      "score": 0.8052,
+      "points": [
+        [
+          459.07,
+          147.93
+        ],
+        [
+          494.27,
+          147.93
+        ],
+        [
+          494.27,
+          212.85
+        ],
+        [
+          459.07,
+          212.85
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "安全帽",
+      "score": 0.8028,
+      "points": [
+        [
+          318.68,
+          148.77
+        ],
+        [
+          356.78,
+          148.77
+        ],
+        [
+          356.78,
+          195.65
+        ],
+        [
+          318.68,
+          195.65
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "人",
+      "score": 0.8007,
+      "points": [
+        [
+          36.04,
+          166.81
+        ],
+        [
+          166.97,
+          166.81
+        ],
+        [
+          166.97,
+          634.43
+        ],
+        [
+          36.04,
+          634.43
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "人",
+      "score": 0.7702,
+      "points": [
+        [
+          294.25,
+          113.63
+        ],
+        [
+          335.73,
+          113.63
+        ],
+        [
+          335.73,
+          245.67
+        ],
+        [
+          294.25,
+          245.67
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "安全帽",
+      "score": 0.7338,
+      "points": [
+        [
+          266.27,
+          120.34
+        ],
+        [
+          285.33,
+          120.34
+        ],
+        [
+          285.33,
+          143.56
+        ],
+        [
+          266.27,
+          143.56
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "安全帽",
+      "score": 0.7278,
+      "points": [
+        [
+          475.17,
+          120.52
+        ],
+        [
+          493.52,
+          120.52
+        ],
+        [
+          493.52,
+          140.8
+        ],
+        [
+          475.17,
+          140.8
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "安全帽",
+      "score": 0.7197,
+      "points": [
+        [
+          547.02,
+          105.45
+        ],
+        [
+          562.67,
+          105.45
+        ],
+        [
+          562.67,
+          122.87
+        ],
+        [
+          547.02,
+          122.87
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "反光背心",
+      "score": 0.715,
+      "points": [
+        [
+          182.54,
+          134.16
+        ],
+        [
+          221.2,
+          134.16
+        ],
+        [
+          221.2,
+          206.88
+        ],
+        [
+          182.54,
+          206.88
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "安全帽",
+      "score": 0.7043,
+      "points": [
+        [
+          316.39,
+          115.38
+        ],
+        [
+          334.63,
+          115.38
+        ],
+        [
+          334.63,
+          136.6
+        ],
+        [
+          316.39,
+          136.6
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "安全帽",
+      "score": 0.6824,
+      "points": [
+        [
+          599.39,
+          126.06
+        ],
+        [
+          618.06,
+          126.06
+        ],
+        [
+          618.06,
+          147.96
+        ],
+        [
+          599.39,
+          147.96
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "反光背心",
+      "score": 0.6745,
+      "points": [
+        [
+          301.22,
+          146.72
+        ],
+        [
+          327.06,
+          146.72
+        ],
+        [
+          327.06,
+          191.59
+        ],
+        [
+          301.22,
+          191.59
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "安全帽",
+      "score": 0.6683,
+      "points": [
+        [
+          191.66,
+          109.31
+        ],
+        [
+          210.33,
+          109.31
+        ],
+        [
+          210.33,
+          126.88
+        ],
+        [
+          191.66,
+          126.88
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "反光背心",
+      "score": 0.3827,
+      "points": [
+        [
+          161.51,
+          130.27
+        ],
+        [
+          188.78,
+          130.27
+        ],
+        [
+          188.78,
+          197.78
+        ],
+        [
+          161.51,
+          197.78
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    }
+  ],
+  "imagePath": "train__ppe_0048_jpg.rf.175bde0a986ee3248cff7c59123da58c.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640,
+  "description": "模型自动标注（X-AnyLabeling 4.3.1 / PPE YOLOv8n，仅保留安全帽与反光背心相关类别）"
+}

@@ -1,0 +1,38 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual envs
+.venv/
+.venv*/
+venv/
+env/
+
+# Runtime output that is cheap to regenerate
+out/pred/
+out/pred_*.jpg
+out/*.png
+out/*.log
+.build/
+*.tmp
+*.tmp_*
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Keep the artefacts the page depends on:
+#   out/*.json        metrics, A/B results, failure stats
+!out/*.json
+
+# Never commit torch checkpoints (there are none today, but keep it safe)
+# weights/yolov8n.pt is deliberately NOT shipped: ultralytics downloads it on
+# first use (it is the stock COCO checkpoint, AGPL, third-party).
+*.pt
+*.pth
+*.engine
+runs/

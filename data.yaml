@@ -1,0 +1,14 @@
+# 工地 PPE 检测数据集（YOLO 格式）—— 供 X-AnyLabeling 的「训练 > Ultralytics」或 ultralytics 命令行直接使用
+# 目录结构：{train,valid,test}/images + {train,valid,test}/labels（1:1 对应 .jpg / .txt）
+# 类别 id 顺序来自数据集原始 data.yaml，不可调整：0 helmet 1 no-helmet 2 no-vest 3 person 4 vest
+# path 省略 = 以本 yaml 所在目录为根，仓库换到任何路径都不用改（ultralytics 支持）
+train: train/images
+val: valid/images
+test: test/images
+nc: 5
+names:
+  0: helmet
+  1: no-helmet
+  2: no-vest
+  3: person
+  4: vest

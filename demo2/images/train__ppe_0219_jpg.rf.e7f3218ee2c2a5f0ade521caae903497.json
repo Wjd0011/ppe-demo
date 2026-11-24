@@ -1,0 +1,67 @@
+{
+  "version": "4.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "安全帽",
+      "score": 0.914,
+      "points": [
+        [
+          248.94,
+          21.55
+        ],
+        [
+          385.85,
+          21.55
+        ],
+        [
+          385.85,
+          81.36
+        ],
+        [
+          248.94,
+          81.36
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "反光背心",
+      "score": 0.422,
+      "points": [
+        [
+          207.14,
+          119.48
+        ],
+        [
+          468.99,
+          119.48
+        ],
+        [
+          468.99,
+          226.08
+        ],
+        [
+          207.14,
+          226.08
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    }
+  ],
+  "imagePath": "train__ppe_0219_jpg.rf.e7f3218ee2c2a5f0ade521caae903497.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640,
+  "description": "模型自动标注（X-AnyLabeling 4.3.1 / PPE YOLOv8n，仅保留安全帽与反光背心相关类别）"
+}

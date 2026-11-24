@@ -1,0 +1,57 @@
+{
+  "valid": {
+    "images": 119,
+    "gt_boxes": 715,
+    "pred_boxes": 928,
+    "mAP50": 0.5696,
+    "mAP50_95": 0.2692,
+    "per_class": {
+      "helmet": 0.8107,
+      "no-helmet": 0.2416,
+      "no-vest": 0.4441,
+      "person": 0.7527,
+      "vest": 0.5989
+    }
+  },
+  "test": {
+    "images": 90,
+    "gt_boxes": 623,
+    "pred_boxes": 861,
+    "mAP50": 0.5401,
+    "mAP50_95": 0.2212,
+    "per_class": {
+      "helmet": 0.7984,
+      "no-helmet": 0.275,
+      "no-vest": 0.3777,
+      "person": 0.7268,
+      "vest": 0.5226
+    }
+  },
+  "train": {
+    "images": 997,
+    "gt_boxes": 6386,
+    "pred_boxes": 9116,
+    "mAP50": 0.5547,
+    "mAP50_95": 0.2385,
+    "per_class": {
+      "helmet": 0.8005,
+      "no-helmet": 0.2358,
+      "no-vest": 0.4329,
+      "person": 0.7125,
+      "vest": 0.5919
+    }
+  },
+  "all": {
+    "images": 1206,
+    "gt_boxes": 7724,
+    "pred_boxes": 10905,
+    "mAP50": 0.5556,
+    "per_class_AP50_weighted": {
+      "helmet": 0.8013,
+      "no-helmet": 0.2436,
+      "no-vest": 0.4303,
+      "person": 0.717,
+      "vest": 0.586
+    }
+  }
+}

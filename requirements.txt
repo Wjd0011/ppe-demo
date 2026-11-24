@@ -1,0 +1,18 @@
+# Inference / evaluation only -- no torch, no ultralytics needed.
+# Install:  uv pip install -r requirements.txt
+#           (or)  python -m pip install -r requirements.txt
+#
+# Tested with Python 3.12.16 on Windows 11 (CPU only, no CUDA toolkit).
+# To fine-tune instead, install torch + ultralytics separately:
+#   uv pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+#   uv pip install ultralytics
+
+numpy>=2.0
+onnxruntime>=1.20
+opencv-python-headless>=4.10
+pillow>=10.0
+
+# Only needed for the annotation GUI / batch auto-labelling through
+# X-AnyLabeling's own model classes (tools/auto_label_json.py,
+# tools/test_xal_model.py, tools/check_gui_load.py):
+#   x-anylabeling-cvhub[cpu]>=4.3.1

@@ -1,0 +1,67 @@
+{
+  "version": "4.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "反光背心",
+      "score": 0.7814,
+      "points": [
+        [
+          141.56,
+          132.97
+        ],
+        [
+          237.96,
+          132.97
+        ],
+        [
+          237.96,
+          295.02
+        ],
+        [
+          141.56,
+          295.02
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "人",
+      "score": 0.4415,
+      "points": [
+        [
+          125.15,
+          126.82
+        ],
+        [
+          264.53,
+          126.82
+        ],
+        [
+          264.53,
+          469.08
+        ],
+        [
+          125.15,
+          469.08
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    }
+  ],
+  "imagePath": "train__ppe_0625_jpg.rf.59d29b54c009be127cb44cd7779d1b1d.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640,
+  "description": "模型自动标注（X-AnyLabeling 4.3.1 / PPE YOLOv8n）"
+}

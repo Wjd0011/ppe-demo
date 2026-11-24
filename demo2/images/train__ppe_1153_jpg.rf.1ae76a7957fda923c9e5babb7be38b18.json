@@ -1,0 +1,95 @@
+{
+  "version": "4.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "未穿反光背心",
+      "score": 0.8965,
+      "points": [
+        [
+          253.96,
+          318.04
+        ],
+        [
+          392.13,
+          318.04
+        ],
+        [
+          392.13,
+          457.13
+        ],
+        [
+          253.96,
+          457.13
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "人",
+      "score": 0.861,
+      "points": [
+        [
+          219.78,
+          249.77
+        ],
+        [
+          441.37,
+          249.77
+        ],
+        [
+          441.37,
+          638.06
+        ],
+        [
+          219.78,
+          638.06
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "安全帽",
+      "score": 0.7763,
+      "points": [
+        [
+          275.56,
+          257.74
+        ],
+        [
+          341.64,
+          257.74
+        ],
+        [
+          341.64,
+          293.39
+        ],
+        [
+          275.56,
+          293.39
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    }
+  ],
+  "imagePath": "train__ppe_1153_jpg.rf.1ae76a7957fda923c9e5babb7be38b18.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640,
+  "description": "模型自动标注（X-AnyLabeling 4.3.1 / PPE YOLOv8n，仅保留安全帽与反光背心相关类别）"
+}

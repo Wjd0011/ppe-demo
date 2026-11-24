@@ -1,0 +1,95 @@
+{
+  "version": "4.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "安全帽",
+      "score": 0.8892,
+      "points": [
+        [
+          196.5,
+          119.35
+        ],
+        [
+          243.9,
+          119.35
+        ],
+        [
+          243.9,
+          182.29
+        ],
+        [
+          196.5,
+          182.29
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "人",
+      "score": 0.7318,
+      "points": [
+        [
+          181.64,
+          116.68
+        ],
+        [
+          264.46,
+          116.68
+        ],
+        [
+          264.46,
+          499.64
+        ],
+        [
+          181.64,
+          499.64
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "未穿反光背心",
+      "score": 0.5209,
+      "points": [
+        [
+          194.22,
+          186.69
+        ],
+        [
+          254.41,
+          186.69
+        ],
+        [
+          254.41,
+          315.74
+        ],
+        [
+          194.22,
+          315.74
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    }
+  ],
+  "imagePath": "test__ppe_0000_jpg.rf.12dba82119baadab649f2fb1fda2afff.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640,
+  "description": "模型自动标注（X-AnyLabeling 4.3.1 / PPE YOLOv8n）"
+}

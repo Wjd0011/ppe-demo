@@ -1,0 +1,18 @@
+type: yolov8
+name: ppe_construction_yolov8n
+provider: Ultralytics
+display_name: PPE 工地安全帽/反光背心 (YOLOv8n)
+model_path: E:\电感\电感\ppe-demo\models\construction_ppe_yolov8n.onnx
+conf_threshold: 0.35
+iou_threshold: 0.45
+classes:
+  - Hardhat
+  - Mask
+  - NO-Hardhat
+  - NO-Mask
+  - NO-Safety Vest
+  - Person
+  - Safety Cone
+  - Safety Vest
+  - machinery
+  - vehicle

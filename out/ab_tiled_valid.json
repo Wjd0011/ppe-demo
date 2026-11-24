@@ -1,0 +1,719 @@
+{
+ "split": "valid",
+ "images": 119,
+ "conf": 0.35,
+ "iou": 0.45,
+ "modes": {
+  "A 整图基线": {
+   "desc": "一片 640 整图推理",
+   "latency_ms": 46.9,
+   "detections": 928,
+   "det_per_image": 7.8,
+   "empty_frames": 0,
+   "empty_ratio": 0.0,
+   "metrics": {
+    "images": 119,
+    "gt_boxes": 715,
+    "pred_boxes": 928,
+    "mAP50": 0.5696,
+    "mAP50_95": 0.2692,
+    "per_class": {
+     "helmet": {
+      "ap50": 0.8107,
+      "ap50_95": 0.4001,
+      "gt": 232,
+      "pred": 230
+     },
+     "no-helmet": {
+      "ap50": 0.2416,
+      "ap50_95": 0.1222,
+      "gt": 11,
+      "pred": 8
+     },
+     "no-vest": {
+      "ap50": 0.4441,
+      "ap50_95": 0.2048,
+      "gt": 90,
+      "pred": 94
+     },
+     "person": {
+      "ap50": 0.7527,
+      "ap50_95": 0.3648,
+      "gt": 241,
+      "pred": 266
+     },
+     "vest": {
+      "ap50": 0.5989,
+      "ap50_95": 0.2539,
+      "gt": 141,
+      "pred": 132
+     }
+    },
+    "operating_point_conf035": {
+     "helmet": {
+      "precision": 0.8478,
+      "recall": 0.8405,
+      "f1": 0.8442,
+      "pred": 230,
+      "gt": 232
+     },
+     "no-helmet": {
+      "precision": 0.375,
+      "recall": 0.2727,
+      "f1": 0.3158,
+      "pred": 8,
+      "gt": 11
+     },
+     "no-vest": {
+      "precision": 0.5319,
+      "recall": 0.5556,
+      "f1": 0.5435,
+      "pred": 94,
+      "gt": 90
+     },
+     "person": {
+      "precision": 0.7406,
+      "recall": 0.8174,
+      "f1": 0.7771,
+      "pred": 266,
+      "gt": 241
+     },
+     "vest": {
+      "precision": 0.7197,
+      "recall": 0.6738,
+      "f1": 0.696,
+      "pred": 132,
+      "gt": 141
+     }
+    }
+   },
+   "recall_by_size": {
+    "小 (<48px)": {
+     "gt": 90,
+     "hit": 62,
+     "recall": 0.6889
+    },
+    "中 (48-96px)": {
+     "gt": 148,
+     "hit": 110,
+     "recall": 0.7432
+    },
+    "大 (>=96px)": {
+     "gt": 477,
+     "hit": 368,
+     "recall": 0.7715
+    }
+   },
+   "worst_images": [
+    {
+     "file": "ppe_0260_jpg.rf.4ed7ac35f19b27b524b8779e0f1dd31d.jpg",
+     "tp": 27,
+     "fp": 35,
+     "fn": 15,
+     "missed": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "no-helmet",
+      "person",
+      "person",
+      "person",
+      "helmet",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+     ],
+     "det": 62,
+     "gt": 42
+    },
+    {
+     "file": "ppe_0164_jpg.rf.b1a042a7c9a4bbda26c3088e29eb73f1.jpg",
+     "tp": 17,
+     "fp": 7,
+     "fn": 7,
+     "missed": [
+      "no-helmet",
+      "no-helmet",
+      "no-helmet",
+      "no-helmet",
+      "no-helmet",
+      "no-helmet",
+      "person"
+     ],
+     "det": 24,
+     "gt": 24
+    },
+    {
+     "file": "ppe_0595_jpg.rf.f4277965fe229eee50e72b37fe3e4bc5.jpg",
+     "tp": 7,
+     "fp": 5,
+     "fn": 6,
+     "missed": [
+      "no-vest",
+      "no-vest",
+      "no-vest",
+      "helmet",
+      "no-vest",
+      "person"
+     ],
+     "det": 12,
+     "gt": 13
+    },
+    {
+     "file": "ppe_0084_jpg.rf.74f8772ad95fc9accb7ddc8e8df1cdcf.jpg",
+     "tp": 3,
+     "fp": 1,
+     "fn": 6,
+     "missed": [
+      "helmet",
+      "helmet",
+      "helmet",
+      "vest",
+      "person",
+      "vest"
+     ],
+     "det": 4,
+     "gt": 9
+    },
+    {
+     "file": "ppe_0553_jpg.rf.ca845fdb5252aff33ef9c10acd33eba7.jpg",
+     "tp": 4,
+     "fp": 3,
+     "fn": 5,
+     "missed": [
+      "helmet",
+      "person",
+      "vest",
+      "vest",
+      "helmet"
+     ],
+     "det": 7,
+     "gt": 9
+    },
+    {
+     "file": "ppe_0574_jpg.rf.6be7913531e0bef200c2ccc102348679.jpg",
+     "tp": 3,
+     "fp": 2,
+     "fn": 5,
+     "missed": [
+      "helmet",
+      "no-vest",
+      "no-vest",
+      "helmet",
+      "helmet"
+     ],
+     "det": 5,
+     "gt": 8
+    },
+    {
+     "file": "ppe_0380_jpg.rf.89af140d3ecf1a03c3c39cbf5e45d97f.jpg",
+     "tp": 5,
+     "fp": 3,
+     "fn": 4,
+     "missed": [
+      "helmet",
+      "vest",
+      "person",
+      "person"
+     ],
+     "det": 8,
+     "gt": 9
+    },
+    {
+     "file": "ppe_0585_jpg.rf.a47acd48f3a4a521a3b32ff5e499ab01.jpg",
+     "tp": 21,
+     "fp": 18,
+     "fn": 3,
+     "missed": [
+      "helmet",
+      "vest",
+      "vest"
+     ],
+     "det": 39,
+     "gt": 24
+    }
+   ]
+  },
+  "B 缩图多尺度": {
+   "desc": "先缩到 0.5 倍再进 640，与原尺度结果按类内 NMS 合并",
+   "latency_ms": 92.9,
+   "detections": 999,
+   "det_per_image": 8.39,
+   "empty_frames": 0,
+   "empty_ratio": 0.0,
+   "metrics": {
+    "images": 119,
+    "gt_boxes": 715,
+    "pred_boxes": 999,
+    "mAP50": 0.6201,
+    "mAP50_95": 0.2854,
+    "per_class": {
+     "helmet": {
+      "ap50": 0.8461,
+      "ap50_95": 0.4282,
+      "gt": 232,
+      "pred": 243
+     },
+     "no-helmet": {
+      "ap50": 0.2327,
+      "ap50_95": 0.1139,
+      "gt": 11,
+      "pred": 9
+     },
+     "no-vest": {
+      "ap50": 0.5628,
+      "ap50_95": 0.2278,
+      "gt": 90,
+      "pred": 103
+     },
+     "person": {
+      "ap50": 0.7968,
+      "ap50_95": 0.373,
+      "gt": 241,
+      "pred": 281
+     },
+     "vest": {
+      "ap50": 0.6619,
+      "ap50_95": 0.2839,
+      "gt": 141,
+      "pred": 155
+     }
+    },
+    "operating_point_conf035": {
+     "helmet": {
+      "precision": 0.8354,
+      "recall": 0.875,
+      "f1": 0.8547,
+      "pred": 243,
+      "gt": 232
+     },
+     "no-helmet": {
+      "precision": 0.3333,
+      "recall": 0.2727,
+      "f1": 0.3,
+      "pred": 9,
+      "gt": 11
+     },
+     "no-vest": {
+      "precision": 0.5728,
+      "recall": 0.6556,
+      "f1": 0.6114,
+      "pred": 103,
+      "gt": 90
+     },
+     "person": {
+      "precision": 0.7367,
+      "recall": 0.8589,
+      "f1": 0.7931,
+      "pred": 281,
+      "gt": 241
+     },
+     "vest": {
+      "precision": 0.6774,
+      "recall": 0.7447,
+      "f1": 0.7095,
+      "pred": 155,
+      "gt": 141
+     }
+    }
+   },
+   "recall_by_size": {
+    "小 (<48px)": {
+     "gt": 90,
+     "hit": 65,
+     "recall": 0.7222
+    },
+    "中 (48-96px)": {
+     "gt": 148,
+     "hit": 114,
+     "recall": 0.7703
+    },
+    "大 (>=96px)": {
+     "gt": 477,
+     "hit": 398,
+     "recall": 0.8344
+    }
+   },
+   "worst_images": [
+    {
+     "file": "ppe_0260_jpg.rf.4ed7ac35f19b27b524b8779e0f1dd31d.jpg",
+     "tp": 28,
+     "fp": 37,
+     "fn": 14,
+     "missed": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "no-helmet",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+     ],
+     "det": 65,
+     "gt": 42
+    },
+    {
+     "file": "ppe_0164_jpg.rf.b1a042a7c9a4bbda26c3088e29eb73f1.jpg",
+     "tp": 17,
+     "fp": 10,
+     "fn": 7,
+     "missed": [
+      "no-helmet",
+      "no-helmet",
+      "no-helmet",
+      "no-helmet",
+      "no-helmet",
+      "no-helmet",
+      "person"
+     ],
+     "det": 27,
+     "gt": 24
+    },
+    {
+     "file": "ppe_0084_jpg.rf.74f8772ad95fc9accb7ddc8e8df1cdcf.jpg",
+     "tp": 3,
+     "fp": 1,
+     "fn": 6,
+     "missed": [
+      "helmet",
+      "helmet",
+      "helmet",
+      "vest",
+      "person",
+      "vest"
+     ],
+     "det": 4,
+     "gt": 9
+    },
+    {
+     "file": "ppe_0595_jpg.rf.f4277965fe229eee50e72b37fe3e4bc5.jpg",
+     "tp": 8,
+     "fp": 5,
+     "fn": 5,
+     "missed": [
+      "no-vest",
+      "no-vest",
+      "no-vest",
+      "helmet",
+      "person"
+     ],
+     "det": 13,
+     "gt": 13
+    },
+    {
+     "file": "ppe_0574_jpg.rf.6be7913531e0bef200c2ccc102348679.jpg",
+     "tp": 3,
+     "fp": 3,
+     "fn": 5,
+     "missed": [
+      "helmet",
+      "no-vest",
+      "no-vest",
+      "helmet",
+      "helmet"
+     ],
+     "det": 6,
+     "gt": 8
+    },
+    {
+     "file": "ppe_0553_jpg.rf.ca845fdb5252aff33ef9c10acd33eba7.jpg",
+     "tp": 5,
+     "fp": 2,
+     "fn": 4,
+     "missed": [
+      "helmet",
+      "vest",
+      "vest",
+      "helmet"
+     ],
+     "det": 7,
+     "gt": 9
+    },
+    {
+     "file": "ppe_0585_jpg.rf.a47acd48f3a4a521a3b32ff5e499ab01.jpg",
+     "tp": 21,
+     "fp": 19,
+     "fn": 3,
+     "missed": [
+      "helmet",
+      "vest",
+      "vest"
+     ],
+     "det": 40,
+     "gt": 24
+    },
+    {
+     "file": "ppe_0166_jpg.rf.4b6529d276ccb2ef6c921f2ad4dda8fe.jpg",
+     "tp": 9,
+     "fp": 8,
+     "fn": 3,
+     "missed": [
+      "helmet",
+      "no-vest",
+      "no-vest"
+     ],
+     "det": 17,
+     "gt": 12
+    }
+   ]
+  },
+  "C 分块2x2": {
+   "desc": "切成 2x2 重叠块分别推理再合并（负面对照）",
+   "latency_ms": 194.8,
+   "detections": 1490,
+   "det_per_image": 12.52,
+   "empty_frames": 0,
+   "empty_ratio": 0.0,
+   "metrics": {
+    "images": 119,
+    "gt_boxes": 715,
+    "pred_boxes": 1490,
+    "mAP50": 0.321,
+    "mAP50_95": 0.1197,
+    "per_class": {
+     "helmet": {
+      "ap50": 0.6761,
+      "ap50_95": 0.2829,
+      "gt": 232,
+      "pred": 249
+     },
+     "no-helmet": {
+      "ap50": 0.3918,
+      "ap50_95": 0.1713,
+      "gt": 11,
+      "pred": 21
+     },
+     "no-vest": {
+      "ap50": 0.1702,
+      "ap50_95": 0.0612,
+      "gt": 90,
+      "pred": 181
+     },
+     "person": {
+      "ap50": 0.1162,
+      "ap50_95": 0.026,
+      "gt": 241,
+      "pred": 557
+     },
+     "vest": {
+      "ap50": 0.2506,
+      "ap50_95": 0.057,
+      "gt": 141,
+      "pred": 210
+     }
+    },
+    "operating_point_conf035": {
+     "helmet": {
+      "precision": 0.7269,
+      "recall": 0.7802,
+      "f1": 0.7526,
+      "pred": 249,
+      "gt": 232
+     },
+     "no-helmet": {
+      "precision": 0.2857,
+      "recall": 0.5455,
+      "f1": 0.375,
+      "pred": 21,
+      "gt": 11
+     },
+     "no-vest": {
+      "precision": 0.1934,
+      "recall": 0.3889,
+      "f1": 0.2583,
+      "pred": 181,
+      "gt": 90
+     },
+     "person": {
+      "precision": 0.2011,
+      "recall": 0.4647,
+      "f1": 0.2807,
+      "pred": 557,
+      "gt": 241
+     },
+     "vest": {
+      "precision": 0.2905,
+      "recall": 0.4326,
+      "f1": 0.3476,
+      "pred": 210,
+      "gt": 141
+     }
+    }
+   },
+   "recall_by_size": {
+    "小 (<48px)": {
+     "gt": 90,
+     "hit": 66,
+     "recall": 0.7333
+    },
+    "中 (48-96px)": {
+     "gt": 148,
+     "hit": 99,
+     "recall": 0.6689
+    },
+    "大 (>=96px)": {
+     "gt": 477,
+     "hit": 230,
+     "recall": 0.4822
+    }
+   },
+   "worst_images": [
+    {
+     "file": "ppe_0260_jpg.rf.4ed7ac35f19b27b524b8779e0f1dd31d.jpg",
+     "tp": 29,
+     "fp": 53,
+     "fn": 13,
+     "missed": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "vest",
+      "person",
+      "person",
+      "person"
+     ],
+     "det": 82,
+     "gt": 42
+    },
+    {
+     "file": "ppe_0595_jpg.rf.f4277965fe229eee50e72b37fe3e4bc5.jpg",
+     "tp": 4,
+     "fp": 13,
+     "fn": 9,
+     "missed": [
+      "helmet",
+      "helmet",
+      "no-vest",
+      "no-vest",
+      "person",
+      "no-vest",
+      "helmet",
+      "no-vest",
+      "person"
+     ],
+     "det": 17,
+     "gt": 13
+    },
+    {
+     "file": "ppe_0164_jpg.rf.b1a042a7c9a4bbda26c3088e29eb73f1.jpg",
+     "tp": 16,
+     "fp": 33,
+     "fn": 8,
+     "missed": [
+      "no-helmet",
+      "no-helmet",
+      "no-helmet",
+      "no-helmet",
+      "no-helmet",
+      "no-vest",
+      "person",
+      "person"
+     ],
+     "det": 49,
+     "gt": 24
+    },
+    {
+     "file": "ppe_0021_jpg.rf.88dbeb3b29388ecc02ffd64915249700.jpg",
+     "tp": 1,
+     "fp": 9,
+     "fn": 8,
+     "missed": [
+      "person",
+      "person",
+      "person",
+      "no-vest",
+      "vest",
+      "no-vest",
+      "helmet",
+      "helmet"
+     ],
+     "det": 10,
+     "gt": 9
+    },
+    {
+     "file": "ppe_0630_jpg.rf.3a749e33899b0cf579f1d64b20f8cf34.jpg",
+     "tp": 8,
+     "fp": 25,
+     "fn": 7,
+     "missed": [
+      "helmet",
+      "helmet",
+      "no-vest",
+      "no-vest",
+      "person",
+      "person",
+      "person"
+     ],
+     "det": 33,
+     "gt": 15
+    },
+    {
+     "file": "ppe_0553_jpg.rf.ca845fdb5252aff33ef9c10acd33eba7.jpg",
+     "tp": 2,
+     "fp": 10,
+     "fn": 7,
+     "missed": [
+      "helmet",
+      "person",
+      "person",
+      "person",
+      "vest",
+      "vest",
+      "helmet"
+     ],
+     "det": 12,
+     "gt": 9
+    },
+    {
+     "file": "ppe_0231_jpg.rf.57f75ff3c931aaac494c5017c56b94b4.jpg",
+     "tp": 3,
+     "fp": 17,
+     "fn": 6,
+     "missed": [
+      "person",
+      "person",
+      "person",
+      "vest",
+      "no-vest",
+      "vest"
+     ],
+     "det": 20,
+     "gt": 9
+    },
+    {
+     "file": "ppe_0607_jpg.rf.c41a10a62f4c992f913036102932f0d3.jpg",
+     "tp": 3,
+     "fp": 12,
+     "fn": 6,
+     "missed": [
+      "helmet",
+      "vest",
+      "vest",
+      "person",
+      "person",
+      "person"
+     ],
+     "det": 15,
+     "gt": 9
+    }
+   ]
+  }
+ }
+}

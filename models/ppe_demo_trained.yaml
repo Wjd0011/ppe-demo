@@ -1,0 +1,22 @@
+# 演示训练得到的模型（8 轮 / 416px / CPU，原始产物在 runs/demo_train/）—— 接入 X-AnyLabeling 自动标注用
+# 权重文件与本 yaml 同目录：models/demo_trained_yolov8n.onnx（12,750,066 字节）
+# 类别只有 5 个，顺序与 data.yaml 一致：0 helmet 1 no-helmet 2 no-vest 3 person 4 vest
+type: yolov8
+name: ppe_demo_trained_yolov8n
+provider: Ultralytics
+display_name: PPE 演示训练模型 (YOLOv8n, 8 轮 CPU)
+model_path: demo_trained_yolov8n.onnx   # 相对本 yaml 所在目录（models/），换仓库路径不用改
+conf_threshold: 0.35
+iou_threshold: 0.45
+filter_classes:
+  - 安全帽
+  - 未戴安全帽
+  - 反光背心
+  - 未穿反光背心
+  - 人
+classes:
+  - 安全帽     # helmet
+  - 未戴安全帽   # no-helmet
+  - 未穿反光背心  # no-vest
+  - 人        # person
+  - 反光背心    # vest

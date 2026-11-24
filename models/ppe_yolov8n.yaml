@@ -1,0 +1,35 @@
+# 工地 PPE 检测模型（YOLOv8n, ONNX, CPU 推理）
+# 类别顺序与 ONNX 输出通道严格对应，不可调换/删减：
+#   0 安全帽 1 口罩 2 未戴安全帽 3 未戴口罩 4 未穿反光背心
+#   5 人     6 锥桶 7 反光背心    8 机械       9 车辆
+# 括号内为原始英文名，便于与数据集 data.yaml 对照。
+type: yolov8
+name: ppe_construction_yolov8n
+provider: Ultralytics
+display_name: 工地安全帽 / 反光背心检测 (YOLOv8n)
+# 相对路径：X-AnyLabeling 会先按当前工作目录、再按本配置文件所在目录解析，
+# 所以无论仓库 clone 到哪儿都能找到权重，不用改这一行。
+model_path: construction_ppe_yolov8n.onnx
+conf_threshold: 0.35
+iou_threshold: 0.45
+# 只保留与「有没有戴安全帽 / 有没有穿反光背心」有关的 5 类。
+# 口罩、锥桶、机械、车辆由 filter_classes 过滤掉，不会出现在标签栏里。
+# 注意：classes 必须保持 10 项且顺序不变 —— 它是 ONNX 输出通道的顺序，
+# 少写一项会让后面所有类别名错位。
+filter_classes:
+  - 安全帽
+  - 未戴安全帽
+  - 反光背心
+  - 未穿反光背心
+  - 人
+classes:
+  - 安全帽     # Hardhat
+  - 口罩     # Mask
+  - 未戴安全帽     # NO-Hardhat
+  - 未戴口罩     # NO-Mask
+  - 未穿反光背心     # NO-Safety Vest
+  - 人     # Person
+  - 锥桶     # Safety Cone
+  - 反光背心     # Safety Vest
+  - 机械     # machinery
+  - 车辆     # vehicle

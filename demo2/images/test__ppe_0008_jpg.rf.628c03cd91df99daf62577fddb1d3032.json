@@ -1,0 +1,235 @@
+{
+  "version": "4.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "反光背心",
+      "score": 0.8981,
+      "points": [
+        [
+          20.82,
+          67.89
+        ],
+        [
+          72.16,
+          67.89
+        ],
+        [
+          72.16,
+          166.44
+        ],
+        [
+          20.82,
+          166.44
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "人",
+      "score": 0.851,
+      "points": [
+        [
+          18.54,
+          39.38
+        ],
+        [
+          95.98,
+          39.38
+        ],
+        [
+          95.98,
+          289.56
+        ],
+        [
+          18.54,
+          289.56
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "人",
+      "score": 0.7432,
+      "points": [
+        [
+          544.31,
+          9.52
+        ],
+        [
+          592.36,
+          9.52
+        ],
+        [
+          592.36,
+          308.33
+        ],
+        [
+          544.31,
+          308.33
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "人",
+      "score": 0.6183,
+      "points": [
+        [
+          501.54,
+          84.82
+        ],
+        [
+          553.07,
+          84.82
+        ],
+        [
+          553.07,
+          292.41
+        ],
+        [
+          501.54,
+          292.41
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "反光背心",
+      "score": 0.5509,
+      "points": [
+        [
+          550.52,
+          106.89
+        ],
+        [
+          588.32,
+          106.89
+        ],
+        [
+          588.32,
+          194.08
+        ],
+        [
+          550.52,
+          194.08
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "安全帽",
+      "score": 0.5466,
+      "points": [
+        [
+          319.47,
+          2.6
+        ],
+        [
+          368.66,
+          2.6
+        ],
+        [
+          368.66,
+          50.69
+        ],
+        [
+          319.47,
+          50.69
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "未戴安全帽",
+      "score": 0.4846,
+      "points": [
+        [
+          45.58,
+          38.15
+        ],
+        [
+          66.75,
+          38.15
+        ],
+        [
+          66.75,
+          60.65
+        ],
+        [
+          45.58,
+          60.65
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "反光背心",
+      "score": 0.392,
+      "points": [
+        [
+          333.08,
+          53.74
+        ],
+        [
+          425.0,
+          53.74
+        ],
+        [
+          425.0,
+          199.92
+        ],
+        [
+          333.08,
+          199.92
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {}
+    }
+  ],
+  "imagePath": "test__ppe_0008_jpg.rf.628c03cd91df99daf62577fddb1d3032.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640,
+  "description": "模型自动标注（X-AnyLabeling 4.3.1 / PPE YOLOv8n，仅保留安全帽与反光背心相关类别）"
+}

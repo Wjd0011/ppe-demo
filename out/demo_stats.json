@@ -1,0 +1,845 @@
+[
+ {
+  "file": "test__ppe_0008_jpg.rf.628c03cd91df99daf62577fddb1d3032.jpg",
+  "stem": "test__ppe_0008_jpg.rf.628c03cd91df99daf62577fddb1d3032",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "反光背心": 4,
+   "人": 4,
+   "未戴安全帽": 3
+  },
+  "gt_total": 11,
+  "pred_total": 8,
+  "tp": 5,
+  "fp": 3,
+  "fn": 6,
+  "fn_classes": {
+   "vest": 2,
+   "person": 1,
+   "no-helmet": 3
+  },
+  "fp_classes": {
+   "helmet": 1,
+   "no-helmet": 1,
+   "vest": 1
+  }
+ },
+ {
+  "file": "test__ppe_0014_jpg.rf.85eab056e0d78bf348203a261683723f.jpg",
+  "stem": "test__ppe_0014_jpg.rf.85eab056e0d78bf348203a261683723f",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "人": 5,
+   "未戴安全帽": 5
+  },
+  "gt_total": 10,
+  "pred_total": 14,
+  "tp": 9,
+  "fp": 5,
+  "fn": 1,
+  "fn_classes": {
+   "person": 1
+  },
+  "fp_classes": {
+   "no-vest": 3,
+   "helmet": 2
+  }
+ },
+ {
+  "file": "test__ppe_0038_jpg.rf.54e8b1b9118cfc56b4a4a3606995e749.jpg",
+  "stem": "test__ppe_0038_jpg.rf.54e8b1b9118cfc56b4a4a3606995e749",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 4,
+   "人": 4,
+   "反光背心": 4
+  },
+  "gt_total": 12,
+  "pred_total": 13,
+  "tp": 10,
+  "fp": 3,
+  "fn": 2,
+  "fn_classes": {
+   "person": 1,
+   "vest": 1
+  },
+  "fp_classes": {
+   "person": 1,
+   "vest": 1,
+   "no-vest": 1
+  }
+ },
+ {
+  "file": "test__ppe_0357_jpg.rf.050090d9456aba1025eed0758342caba.jpg",
+  "stem": "test__ppe_0357_jpg.rf.050090d9456aba1025eed0758342caba",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "人": 11,
+   "安全帽": 9,
+   "未戴安全帽": 3
+  },
+  "gt_total": 23,
+  "pred_total": 28,
+  "tp": 15,
+  "fp": 13,
+  "fn": 8,
+  "fn_classes": {
+   "helmet": 1,
+   "no-helmet": 3,
+   "person": 4
+  },
+  "fp_classes": {
+   "no-helmet": 2,
+   "person": 3,
+   "no-vest": 8
+  }
+ },
+ {
+  "file": "test__ppe_0517_jpg.rf.31dec7e07babdce093ed10be6e32c947.jpg",
+  "stem": "test__ppe_0517_jpg.rf.31dec7e07babdce093ed10be6e32c947",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 3,
+   "未戴安全帽": 1,
+   "未穿反光背心": 4,
+   "人": 4
+  },
+  "gt_total": 12,
+  "pred_total": 13,
+  "tp": 10,
+  "fp": 3,
+  "fn": 2,
+  "fn_classes": {
+   "no-helmet": 1,
+   "no-vest": 1
+  },
+  "fp_classes": {
+   "no-vest": 1,
+   "no-helmet": 1,
+   "helmet": 1
+  }
+ },
+ {
+  "file": "test__ppe_0575_jpg.rf.e79ce58a080dc93e6a95537e137ec60c.jpg",
+  "stem": "test__ppe_0575_jpg.rf.e79ce58a080dc93e6a95537e137ec60c",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 4,
+   "人": 4,
+   "未穿反光背心": 4
+  },
+  "gt_total": 12,
+  "pred_total": 14,
+  "tp": 7,
+  "fp": 7,
+  "fn": 5,
+  "fn_classes": {
+   "person": 2,
+   "no-vest": 3
+  },
+  "fp_classes": {
+   "no-vest": 4,
+   "person": 3
+  }
+ },
+ {
+  "file": "test__ppe_0577_jpg.rf.15c8deda50ea271499137f56a306e052.jpg",
+  "stem": "test__ppe_0577_jpg.rf.15c8deda50ea271499137f56a306e052",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 6,
+   "反光背心": 4,
+   "人": 4
+  },
+  "gt_total": 14,
+  "pred_total": 24,
+  "tp": 13,
+  "fp": 11,
+  "fn": 1,
+  "fn_classes": {
+   "vest": 1
+  },
+  "fp_classes": {
+   "person": 4,
+   "vest": 3,
+   "no-vest": 1,
+   "helmet": 3
+  }
+ },
+ {
+  "file": "test__ppe_0648_jpg.rf.215940a377ac44d8349e0d6e19d8b397.jpg",
+  "stem": "test__ppe_0648_jpg.rf.215940a377ac44d8349e0d6e19d8b397",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 5,
+   "反光背心": 5,
+   "人": 5
+  },
+  "gt_total": 15,
+  "pred_total": 16,
+  "tp": 15,
+  "fp": 1,
+  "fn": 0,
+  "fn_classes": {},
+  "fp_classes": {
+   "vest": 1
+  }
+ },
+ {
+  "file": "test__ppe_0675_jpg.rf.65d626c2c9fac8b648d258e8d804e58c.jpg",
+  "stem": "test__ppe_0675_jpg.rf.65d626c2c9fac8b648d258e8d804e58c",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 10,
+   "反光背心": 1,
+   "人": 3,
+   "未穿反光背心": 7
+  },
+  "gt_total": 21,
+  "pred_total": 24,
+  "tp": 13,
+  "fp": 11,
+  "fn": 8,
+  "fn_classes": {
+   "vest": 1,
+   "helmet": 6,
+   "no-vest": 1
+  },
+  "fp_classes": {
+   "no-vest": 1,
+   "helmet": 2,
+   "person": 8
+  }
+ },
+ {
+  "file": "test__ppe_0701_jpg.rf.bf04940bcfa009a8f86f52d706fee7e1.jpg",
+  "stem": "test__ppe_0701_jpg.rf.bf04940bcfa009a8f86f52d706fee7e1",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "未戴安全帽": 4,
+   "人": 4,
+   "反光背心": 4
+  },
+  "gt_total": 12,
+  "pred_total": 11,
+  "tp": 8,
+  "fp": 3,
+  "fn": 4,
+  "fn_classes": {
+   "no-helmet": 4
+  },
+  "fp_classes": {
+   "no-helmet": 2,
+   "helmet": 1
+  }
+ },
+ {
+  "file": "test__ppe_0720_jpg.rf.f97def9daff3143f44dac7cf734e4303.jpg",
+  "stem": "test__ppe_0720_jpg.rf.f97def9daff3143f44dac7cf734e4303",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 13,
+   "反光背心": 12,
+   "人": 11
+  },
+  "gt_total": 36,
+  "pred_total": 35,
+  "tp": 32,
+  "fp": 3,
+  "fn": 4,
+  "fn_classes": {
+   "vest": 3,
+   "helmet": 1
+  },
+  "fp_classes": {
+   "vest": 1,
+   "no-helmet": 1,
+   "person": 1
+  }
+ },
+ {
+  "file": "test__ppe_0803_jpg.rf.384c2c188ee50179524d1f5b6ea7020f.jpg",
+  "stem": "test__ppe_0803_jpg.rf.384c2c188ee50179524d1f5b6ea7020f",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 5,
+   "人": 5,
+   "未穿反光背心": 4
+  },
+  "gt_total": 14,
+  "pred_total": 20,
+  "tp": 13,
+  "fp": 7,
+  "fn": 1,
+  "fn_classes": {
+   "no-vest": 1
+  },
+  "fp_classes": {
+   "helmet": 2,
+   "person": 3,
+   "no-vest": 2
+  }
+ },
+ {
+  "file": "test__ppe_0857_jpg.rf.5fdcf8d572b6d41a7636dff38c1b791a.jpg",
+  "stem": "test__ppe_0857_jpg.rf.5fdcf8d572b6d41a7636dff38c1b791a",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 7,
+   "未穿反光背心": 2,
+   "人": 7
+  },
+  "gt_total": 16,
+  "pred_total": 25,
+  "tp": 16,
+  "fp": 9,
+  "fn": 0,
+  "fn_classes": {},
+  "fp_classes": {
+   "no-vest": 5,
+   "vest": 3,
+   "person": 1
+  }
+ },
+ {
+  "file": "test__ppe_0920_jpg.rf.e05ef8ccb742e0faf00114d5be97c9a1.jpg",
+  "stem": "test__ppe_0920_jpg.rf.e05ef8ccb742e0faf00114d5be97c9a1",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 4,
+   "反光背心": 1,
+   "未穿反光背心": 3,
+   "人": 4
+  },
+  "gt_total": 12,
+  "pred_total": 16,
+  "tp": 9,
+  "fp": 7,
+  "fn": 3,
+  "fn_classes": {
+   "helmet": 2,
+   "no-vest": 1
+  },
+  "fp_classes": {
+   "no-vest": 2,
+   "helmet": 4,
+   "person": 1
+  }
+ },
+ {
+  "file": "train__ppe_0016_jpg.rf.34aaa4aae89d10b1c9029efaaba2a114.jpg",
+  "stem": "train__ppe_0016_jpg.rf.34aaa4aae89d10b1c9029efaaba2a114",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 7,
+   "人": 7,
+   "未穿反光背心": 2,
+   "反光背心": 4
+  },
+  "gt_total": 20,
+  "pred_total": 20,
+  "tp": 17,
+  "fp": 3,
+  "fn": 3,
+  "fn_classes": {
+   "helmet": 1,
+   "person": 1,
+   "no-vest": 1
+  },
+  "fp_classes": {
+   "helmet": 1,
+   "no-vest": 1,
+   "vest": 1
+  }
+ },
+ {
+  "file": "train__ppe_0023_jpg.rf.8fe4b130f2c5e88ba53288e9633cbf6c.jpg",
+  "stem": "train__ppe_0023_jpg.rf.8fe4b130f2c5e88ba53288e9633cbf6c",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 6,
+   "人": 6,
+   "未穿反光背心": 1,
+   "反光背心": 5
+  },
+  "gt_total": 18,
+  "pred_total": 19,
+  "tp": 16,
+  "fp": 3,
+  "fn": 2,
+  "fn_classes": {
+   "helmet": 2
+  },
+  "fp_classes": {
+   "helmet": 1,
+   "no-helmet": 2
+  }
+ },
+ {
+  "file": "train__ppe_0033_jpg.rf.8c43571990c9f1f32f8673f4c7b2d455.jpg",
+  "stem": "train__ppe_0033_jpg.rf.8c43571990c9f1f32f8673f4c7b2d455",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 5,
+   "人": 5,
+   "反光背心": 4,
+   "未戴安全帽": 1
+  },
+  "gt_total": 15,
+  "pred_total": 12,
+  "tp": 12,
+  "fp": 0,
+  "fn": 3,
+  "fn_classes": {
+   "person": 1,
+   "vest": 1,
+   "helmet": 1
+  },
+  "fp_classes": {}
+ },
+ {
+  "file": "train__ppe_0034_jpg.rf.57431133caca0fabc7f455b369c48888.jpg",
+  "stem": "train__ppe_0034_jpg.rf.57431133caca0fabc7f455b369c48888",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 9,
+   "反光背心": 9,
+   "人": 9
+  },
+  "gt_total": 27,
+  "pred_total": 27,
+  "tp": 26,
+  "fp": 1,
+  "fn": 1,
+  "fn_classes": {
+   "helmet": 1
+  },
+  "fp_classes": {
+   "helmet": 1
+  }
+ },
+ {
+  "file": "train__ppe_0048_jpg.rf.175bde0a986ee3248cff7c59123da58c.jpg",
+  "stem": "train__ppe_0048_jpg.rf.175bde0a986ee3248cff7c59123da58c",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 9,
+   "反光背心": 8,
+   "人": 8
+  },
+  "gt_total": 25,
+  "pred_total": 25,
+  "tp": 22,
+  "fp": 3,
+  "fn": 3,
+  "fn_classes": {
+   "helmet": 2,
+   "person": 1
+  },
+  "fp_classes": {
+   "person": 1,
+   "helmet": 1,
+   "vest": 1
+  }
+ },
+ {
+  "file": "train__ppe_0085_jpg.rf.07e4ed6774e44035001105bd04bd0184.jpg",
+  "stem": "train__ppe_0085_jpg.rf.07e4ed6774e44035001105bd04bd0184",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "人": 2,
+   "未穿反光背心": 2,
+   "未戴安全帽": 3
+  },
+  "gt_total": 7,
+  "pred_total": 12,
+  "tp": 5,
+  "fp": 7,
+  "fn": 2,
+  "fn_classes": {
+   "person": 1,
+   "no-helmet": 1
+  },
+  "fp_classes": {
+   "no-helmet": 2,
+   "no-vest": 2,
+   "person": 3
+  }
+ },
+ {
+  "file": "train__ppe_0100_jpg.rf.f164f8f44d6ea40759a4221c899c5ba3.jpg",
+  "stem": "train__ppe_0100_jpg.rf.f164f8f44d6ea40759a4221c899c5ba3",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 6,
+   "反光背心": 4,
+   "人": 5
+  },
+  "gt_total": 15,
+  "pred_total": 19,
+  "tp": 9,
+  "fp": 10,
+  "fn": 6,
+  "fn_classes": {
+   "helmet": 2,
+   "vest": 2,
+   "person": 2
+  },
+  "fp_classes": {
+   "person": 4,
+   "helmet": 3,
+   "vest": 2,
+   "no-vest": 1
+  }
+ },
+ {
+  "file": "train__ppe_0111_jpg.rf.2b6710cb0daa813c0470f684f9d8801b.jpg",
+  "stem": "train__ppe_0111_jpg.rf.2b6710cb0daa813c0470f684f9d8801b",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "未戴安全帽": 4,
+   "人": 3,
+   "未穿反光背心": 2
+  },
+  "gt_total": 9,
+  "pred_total": 9,
+  "tp": 6,
+  "fp": 3,
+  "fn": 3,
+  "fn_classes": {
+   "person": 2,
+   "no-vest": 1
+  },
+  "fp_classes": {
+   "person": 2,
+   "no-helmet": 1
+  }
+ },
+ {
+  "file": "valid__ppe_0129_jpg.rf.bf54620a4c90db26870f27f5487608cd.jpg",
+  "stem": "valid__ppe_0129_jpg.rf.bf54620a4c90db26870f27f5487608cd",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "未戴安全帽": 1,
+   "反光背心": 3,
+   "人": 4,
+   "安全帽": 3
+  },
+  "gt_total": 11,
+  "pred_total": 15,
+  "tp": 8,
+  "fp": 7,
+  "fn": 3,
+  "fn_classes": {
+   "vest": 2,
+   "helmet": 1
+  },
+  "fp_classes": {
+   "vest": 1,
+   "no-vest": 3,
+   "person": 3
+  }
+ },
+ {
+  "file": "valid__ppe_0164_jpg.rf.b1a042a7c9a4bbda26c3088e29eb73f1.jpg",
+  "stem": "valid__ppe_0164_jpg.rf.b1a042a7c9a4bbda26c3088e29eb73f1",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 2,
+   "未戴安全帽": 6,
+   "未穿反光背心": 8,
+   "人": 8
+  },
+  "gt_total": 24,
+  "pred_total": 20,
+  "tp": 17,
+  "fp": 3,
+  "fn": 7,
+  "fn_classes": {
+   "no-helmet": 6,
+   "person": 1
+  },
+  "fp_classes": {
+   "helmet": 3
+  }
+ },
+ {
+  "file": "valid__ppe_0166_jpg.rf.4b6529d276ccb2ef6c921f2ad4dda8fe.jpg",
+  "stem": "valid__ppe_0166_jpg.rf.4b6529d276ccb2ef6c921f2ad4dda8fe",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 4,
+   "未穿反光背心": 4,
+   "人": 4
+  },
+  "gt_total": 12,
+  "pred_total": 13,
+  "tp": 9,
+  "fp": 4,
+  "fn": 3,
+  "fn_classes": {
+   "helmet": 1,
+   "no-vest": 2
+  },
+  "fp_classes": {
+   "helmet": 1,
+   "no-vest": 3
+  }
+ },
+ {
+  "file": "valid__ppe_0246_jpg.rf.c9c44b902e18f11d2bde212fa6db1cbf.jpg",
+  "stem": "valid__ppe_0246_jpg.rf.c9c44b902e18f11d2bde212fa6db1cbf",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 4,
+   "未穿反光背心": 4,
+   "人": 4
+  },
+  "gt_total": 12,
+  "pred_total": 12,
+  "tp": 12,
+  "fp": 0,
+  "fn": 0,
+  "fn_classes": {},
+  "fp_classes": {}
+ },
+ {
+  "file": "valid__ppe_0260_jpg.rf.4ed7ac35f19b27b524b8779e0f1dd31d.jpg",
+  "stem": "valid__ppe_0260_jpg.rf.4ed7ac35f19b27b524b8779e0f1dd31d",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 15,
+   "人": 19,
+   "未戴安全帽": 1,
+   "反光背心": 7
+  },
+  "gt_total": 42,
+  "pred_total": 48,
+  "tp": 29,
+  "fp": 19,
+  "fn": 13,
+  "fn_classes": {
+   "person": 11,
+   "no-helmet": 1,
+   "helmet": 1
+  },
+  "fp_classes": {
+   "vest": 10,
+   "helmet": 2,
+   "person": 7
+  }
+ },
+ {
+  "file": "valid__ppe_0511_jpg.rf.9847ea8eff9ee414c31ce3e8f315704b.jpg",
+  "stem": "valid__ppe_0511_jpg.rf.9847ea8eff9ee414c31ce3e8f315704b",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 4,
+   "未穿反光背心": 4,
+   "人": 4
+  },
+  "gt_total": 12,
+  "pred_total": 13,
+  "tp": 9,
+  "fp": 4,
+  "fn": 3,
+  "fn_classes": {
+   "helmet": 1,
+   "no-vest": 2
+  },
+  "fp_classes": {
+   "helmet": 1,
+   "no-vest": 2,
+   "no-helmet": 1
+  }
+ },
+ {
+  "file": "valid__ppe_0533_jpg.rf.2cf6033bbd3a274b65f10aff37f86bc6.jpg",
+  "stem": "valid__ppe_0533_jpg.rf.2cf6033bbd3a274b65f10aff37f86bc6",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 4,
+   "人": 4,
+   "未穿反光背心": 4
+  },
+  "gt_total": 12,
+  "pred_total": 12,
+  "tp": 11,
+  "fp": 1,
+  "fn": 1,
+  "fn_classes": {
+   "no-vest": 1
+  },
+  "fp_classes": {
+   "no-vest": 1
+  }
+ },
+ {
+  "file": "valid__ppe_0585_jpg.rf.a47acd48f3a4a521a3b32ff5e499ab01.jpg",
+  "stem": "valid__ppe_0585_jpg.rf.a47acd48f3a4a521a3b32ff5e499ab01",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 8,
+   "反光背心": 8,
+   "人": 8
+  },
+  "gt_total": 24,
+  "pred_total": 36,
+  "tp": 21,
+  "fp": 15,
+  "fn": 3,
+  "fn_classes": {
+   "helmet": 1,
+   "vest": 2
+  },
+  "fp_classes": {
+   "vest": 7,
+   "helmet": 4,
+   "person": 4
+  }
+ },
+ {
+  "file": "valid__ppe_0595_jpg.rf.f4277965fe229eee50e72b37fe3e4bc5.jpg",
+  "stem": "valid__ppe_0595_jpg.rf.f4277965fe229eee50e72b37fe3e4bc5",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 5,
+   "未穿反光背心": 4,
+   "人": 4
+  },
+  "gt_total": 13,
+  "pred_total": 12,
+  "tp": 7,
+  "fp": 5,
+  "fn": 6,
+  "fn_classes": {
+   "no-vest": 4,
+   "helmet": 1,
+   "person": 1
+  },
+  "fp_classes": {
+   "person": 1,
+   "no-vest": 3,
+   "helmet": 1
+  }
+ },
+ {
+  "file": "valid__ppe_0630_jpg.rf.3a749e33899b0cf579f1d64b20f8cf34.jpg",
+  "stem": "valid__ppe_0630_jpg.rf.3a749e33899b0cf579f1d64b20f8cf34",
+  "size": [
+   640,
+   640
+  ],
+  "gt": {
+   "安全帽": 5,
+   "未穿反光背心": 5,
+   "人": 5
+  },
+  "gt_total": 15,
+  "pred_total": 14,
+  "tp": 12,
+  "fp": 2,
+  "fn": 3,
+  "fn_classes": {
+   "no-vest": 2,
+   "person": 1
+  },
+  "fp_classes": {
+   "person": 1,
+   "no-vest": 1
+  }
+ }
+]

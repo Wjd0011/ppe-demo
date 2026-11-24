@@ -1,0 +1,722 @@
+[
+ {
+  "file": "test__ppe_0000_jpg.rf.12dba82119baadab649f2fb1fda2afff.jpg",
+  "split": "test",
+  "source_file": "ppe_0000_jpg.rf.12dba82119baadab649f2fb1fda2afff.jpg",
+  "counts": {
+   "helmet": 1,
+   "no-helmet": 0,
+   "no-vest": 1,
+   "person": 1,
+   "vest": 0
+  }
+ },
+ {
+  "file": "test__ppe_0004_jpg.rf.15485d516145ed09a31de9762ed5b908.jpg",
+  "split": "test",
+  "source_file": "ppe_0004_jpg.rf.15485d516145ed09a31de9762ed5b908.jpg",
+  "counts": {
+   "helmet": 3,
+   "no-helmet": 0,
+   "no-vest": 0,
+   "person": 3,
+   "vest": 3
+  }
+ },
+ {
+  "file": "test__ppe_0008_jpg.rf.628c03cd91df99daf62577fddb1d3032.jpg",
+  "split": "test",
+  "source_file": "ppe_0008_jpg.rf.628c03cd91df99daf62577fddb1d3032.jpg",
+  "counts": {
+   "helmet": 0,
+   "no-helmet": 3,
+   "no-vest": 0,
+   "person": 4,
+   "vest": 4
+  }
+ },
+ {
+  "file": "test__ppe_0014_jpg.rf.85eab056e0d78bf348203a261683723f.jpg",
+  "split": "test",
+  "source_file": "ppe_0014_jpg.rf.85eab056e0d78bf348203a261683723f.jpg",
+  "counts": {
+   "helmet": 0,
+   "no-helmet": 5,
+   "no-vest": 0,
+   "person": 5,
+   "vest": 0
+  }
+ },
+ {
+  "file": "test__ppe_0357_jpg.rf.050090d9456aba1025eed0758342caba.jpg",
+  "split": "test",
+  "source_file": "ppe_0357_jpg.rf.050090d9456aba1025eed0758342caba.jpg",
+  "counts": {
+   "helmet": 9,
+   "no-helmet": 3,
+   "no-vest": 0,
+   "person": 11,
+   "vest": 0
+  }
+ },
+ {
+  "file": "test__ppe_0517_jpg.rf.31dec7e07babdce093ed10be6e32c947.jpg",
+  "split": "test",
+  "source_file": "ppe_0517_jpg.rf.31dec7e07babdce093ed10be6e32c947.jpg",
+  "counts": {
+   "helmet": 3,
+   "no-helmet": 1,
+   "no-vest": 4,
+   "person": 4,
+   "vest": 0
+  }
+ },
+ {
+  "file": "test__ppe_0633_jpg.rf.f8e000ed591c46262c050a12e1bb4b90.jpg",
+  "split": "test",
+  "source_file": "ppe_0633_jpg.rf.f8e000ed591c46262c050a12e1bb4b90.jpg",
+  "counts": {
+   "helmet": 2,
+   "no-helmet": 1,
+   "no-vest": 1,
+   "person": 3,
+   "vest": 2
+  }
+ },
+ {
+  "file": "test__ppe_0828_jpg.rf.a09bcee628512d6bb9a44fe2afd8b19f.jpg",
+  "split": "test",
+  "source_file": "ppe_0828_jpg.rf.a09bcee628512d6bb9a44fe2afd8b19f.jpg",
+  "counts": {
+   "helmet": 2,
+   "no-helmet": 1,
+   "no-vest": 1,
+   "person": 2,
+   "vest": 2
+  }
+ },
+ {
+  "file": "test__ppe_0872_jpg.rf.e7c5a5f3b802b8796b3b86da923c725b.jpg",
+  "split": "test",
+  "source_file": "ppe_0872_jpg.rf.e7c5a5f3b802b8796b3b86da923c725b.jpg",
+  "counts": {
+   "helmet": 0,
+   "no-helmet": 0,
+   "no-vest": 0,
+   "person": 2,
+   "vest": 0
+  }
+ },
+ {
+  "file": "train__ppe_0001_jpg.rf.1c931663256b12a072b177f4f2794469.jpg",
+  "split": "train",
+  "source_file": "ppe_0001_jpg.rf.1c931663256b12a072b177f4f2794469.jpg",
+  "counts": {
+   "helmet": 3,
+   "no-helmet": 0,
+   "no-vest": 2,
+   "person": 3,
+   "vest": 1
+  }
+ },
+ {
+  "file": "train__ppe_0033_jpg.rf.8c43571990c9f1f32f8673f4c7b2d455.jpg",
+  "split": "train",
+  "source_file": "ppe_0033_jpg.rf.8c43571990c9f1f32f8673f4c7b2d455.jpg",
+  "counts": {
+   "helmet": 5,
+   "no-helmet": 1,
+   "no-vest": 0,
+   "person": 5,
+   "vest": 4
+  }
+ },
+ {
+  "file": "train__ppe_0080_jpg.rf.b6e05ab6f942e9f35748f412117d6217.jpg",
+  "split": "train",
+  "source_file": "ppe_0080_jpg.rf.b6e05ab6f942e9f35748f412117d6217.jpg",
+  "counts": {
+   "helmet": 2,
+   "no-helmet": 0,
+   "no-vest": 1,
+   "person": 2,
+   "vest": 1
+  }
+ },
+ {
+  "file": "train__ppe_0085_jpg.rf.07e4ed6774e44035001105bd04bd0184.jpg",
+  "split": "train",
+  "source_file": "ppe_0085_jpg.rf.07e4ed6774e44035001105bd04bd0184.jpg",
+  "counts": {
+   "helmet": 0,
+   "no-helmet": 3,
+   "no-vest": 2,
+   "person": 2,
+   "vest": 0
+  }
+ },
+ {
+  "file": "train__ppe_0088_jpg.rf.2a64e33e78c301568c0ded48a6d85ac1.jpg",
+  "split": "train",
+  "source_file": "ppe_0088_jpg.rf.2a64e33e78c301568c0ded48a6d85ac1.jpg",
+  "counts": {
+   "helmet": 1,
+   "no-helmet": 0,
+   "no-vest": 0,
+   "person": 1,
+   "vest": 1
+  }
+ },
+ {
+  "file": "train__ppe_0130_jpg.rf.765e95c8ceb97bd7442803fb69b70bcc.jpg",
+  "split": "train",
+  "source_file": "ppe_0130_jpg.rf.765e95c8ceb97bd7442803fb69b70bcc.jpg",
+  "counts": {
+   "helmet": 3,
+   "no-helmet": 2,
+   "no-vest": 4,
+   "person": 4,
+   "vest": 0
+  }
+ },
+ {
+  "file": "train__ppe_0168_jpg.rf.2382ae368b075323f49c3136fdf4ba76.jpg",
+  "split": "train",
+  "source_file": "ppe_0168_jpg.rf.2382ae368b075323f49c3136fdf4ba76.jpg",
+  "counts": {
+   "helmet": 2,
+   "no-helmet": 0,
+   "no-vest": 1,
+   "person": 2,
+   "vest": 1
+  }
+ },
+ {
+  "file": "train__ppe_0219_jpg.rf.e7f3218ee2c2a5f0ade521caae903497.jpg",
+  "split": "train",
+  "source_file": "ppe_0219_jpg.rf.e7f3218ee2c2a5f0ade521caae903497.jpg",
+  "counts": {
+   "helmet": 1,
+   "no-helmet": 0,
+   "no-vest": 0,
+   "person": 1,
+   "vest": 1
+  }
+ },
+ {
+  "file": "train__ppe_0259_jpg.rf.00c118514f6b8a8e9ea13d7e20ec153e.jpg",
+  "split": "train",
+  "source_file": "ppe_0259_jpg.rf.00c118514f6b8a8e9ea13d7e20ec153e.jpg",
+  "counts": {
+   "helmet": 3,
+   "no-helmet": 0,
+   "no-vest": 2,
+   "person": 3,
+   "vest": 1
+  }
+ },
+ {
+  "file": "train__ppe_0292_jpg.rf.4ca962e4191ecfa228af7bf9942cbc8e.jpg",
+  "split": "train",
+  "source_file": "ppe_0292_jpg.rf.4ca962e4191ecfa228af7bf9942cbc8e.jpg",
+  "counts": {
+   "helmet": 0,
+   "no-helmet": 6,
+   "no-vest": 0,
+   "person": 6,
+   "vest": 4
+  }
+ },
+ {
+  "file": "train__ppe_0325_jpg.rf.12af025d51b7bc8ff8bd791a63989276.jpg",
+  "split": "train",
+  "source_file": "ppe_0325_jpg.rf.12af025d51b7bc8ff8bd791a63989276.jpg",
+  "counts": {
+   "helmet": 3,
+   "no-helmet": 2,
+   "no-vest": 4,
+   "person": 4,
+   "vest": 0
+  }
+ },
+ {
+  "file": "train__ppe_0346_jpg.rf.6e8575585c221281355b530b64216d4b.jpg",
+  "split": "train",
+  "source_file": "ppe_0346_jpg.rf.6e8575585c221281355b530b64216d4b.jpg",
+  "counts": {
+   "helmet": 2,
+   "no-helmet": 0,
+   "no-vest": 2,
+   "person": 2,
+   "vest": 0
+  }
+ },
+ {
+  "file": "train__ppe_0369_jpg.rf.021cf6f6662a254abc6acee11d5650b4.jpg",
+  "split": "train",
+  "source_file": "ppe_0369_jpg.rf.021cf6f6662a254abc6acee11d5650b4.jpg",
+  "counts": {
+   "helmet": 1,
+   "no-helmet": 0,
+   "no-vest": 0,
+   "person": 1,
+   "vest": 1
+  }
+ },
+ {
+  "file": "train__ppe_0416_jpg.rf.6f2e03739ed0f48351ef215a1b258fa7.jpg",
+  "split": "train",
+  "source_file": "ppe_0416_jpg.rf.6f2e03739ed0f48351ef215a1b258fa7.jpg",
+  "counts": {
+   "helmet": 0,
+   "no-helmet": 1,
+   "no-vest": 0,
+   "person": 1,
+   "vest": 1
+  }
+ },
+ {
+  "file": "train__ppe_0484_jpg.rf.d3695b5fdd18968c5d3cb3fb27745eb6.jpg",
+  "split": "train",
+  "source_file": "ppe_0484_jpg.rf.d3695b5fdd18968c5d3cb3fb27745eb6.jpg",
+  "counts": {
+   "helmet": 1,
+   "no-helmet": 0,
+   "no-vest": 1,
+   "person": 1,
+   "vest": 0
+  }
+ },
+ {
+  "file": "train__ppe_0501_jpg.rf.8e8997ea54d323536f9079f82efbe2e8.jpg",
+  "split": "train",
+  "source_file": "ppe_0501_jpg.rf.8e8997ea54d323536f9079f82efbe2e8.jpg",
+  "counts": {
+   "helmet": 1,
+   "no-helmet": 0,
+   "no-vest": 0,
+   "person": 1,
+   "vest": 1
+  }
+ },
+ {
+  "file": "train__ppe_0502_jpg.rf.6d13d064bc888aff0d3d21b23ca251a0.jpg",
+  "split": "train",
+  "source_file": "ppe_0502_jpg.rf.6d13d064bc888aff0d3d21b23ca251a0.jpg",
+  "counts": {
+   "helmet": 1,
+   "no-helmet": 1,
+   "no-vest": 1,
+   "person": 2,
+   "vest": 1
+  }
+ },
+ {
+  "file": "train__ppe_0586_jpg.rf.5eef05c335ddac1a3ae4f5245a59b26f.jpg",
+  "split": "train",
+  "source_file": "ppe_0586_jpg.rf.5eef05c335ddac1a3ae4f5245a59b26f.jpg",
+  "counts": {
+   "helmet": 2,
+   "no-helmet": 0,
+   "no-vest": 2,
+   "person": 1,
+   "vest": 0
+  }
+ },
+ {
+  "file": "train__ppe_0625_jpg.rf.59d29b54c009be127cb44cd7779d1b1d.jpg",
+  "split": "train",
+  "source_file": "ppe_0625_jpg.rf.59d29b54c009be127cb44cd7779d1b1d.jpg",
+  "counts": {
+   "helmet": 0,
+   "no-helmet": 2,
+   "no-vest": 0,
+   "person": 2,
+   "vest": 2
+  }
+ },
+ {
+  "file": "train__ppe_0639_jpg.rf.257d7e8c21dc5fe475bac6441f905dcb.jpg",
+  "split": "train",
+  "source_file": "ppe_0639_jpg.rf.257d7e8c21dc5fe475bac6441f905dcb.jpg",
+  "counts": {
+   "helmet": 1,
+   "no-helmet": 0,
+   "no-vest": 0,
+   "person": 1,
+   "vest": 1
+  }
+ },
+ {
+  "file": "train__ppe_0641_jpg.rf.64d8fa8c0042a0450c56c3fe2e1c8dd0.jpg",
+  "split": "train",
+  "source_file": "ppe_0641_jpg.rf.64d8fa8c0042a0450c56c3fe2e1c8dd0.jpg",
+  "counts": {
+   "helmet": 1,
+   "no-helmet": 1,
+   "no-vest": 1,
+   "person": 2,
+   "vest": 1
+  }
+ },
+ {
+  "file": "train__ppe_0666_jpg.rf.0e4ce1f3cd91f9438f25c868ae103a2d.jpg",
+  "split": "train",
+  "source_file": "ppe_0666_jpg.rf.0e4ce1f3cd91f9438f25c868ae103a2d.jpg",
+  "counts": {
+   "helmet": 1,
+   "no-helmet": 1,
+   "no-vest": 0,
+   "person": 2,
+   "vest": 1
+  }
+ },
+ {
+  "file": "train__ppe_0681_jpg.rf.14cabbd9f9d2d52f3ae633a8c38d72f0.jpg",
+  "split": "train",
+  "source_file": "ppe_0681_jpg.rf.14cabbd9f9d2d52f3ae633a8c38d72f0.jpg",
+  "counts": {
+   "helmet": 1,
+   "no-helmet": 0,
+   "no-vest": 1,
+   "person": 1,
+   "vest": 0
+  }
+ },
+ {
+  "file": "train__ppe_0733_jpg.rf.587ec6419ced2535320fce2e4eb1fc2c.jpg",
+  "split": "train",
+  "source_file": "ppe_0733_jpg.rf.587ec6419ced2535320fce2e4eb1fc2c.jpg",
+  "counts": {
+   "helmet": 6,
+   "no-helmet": 1,
+   "no-vest": 7,
+   "person": 7,
+   "vest": 0
+  }
+ },
+ {
+  "file": "train__ppe_0739_jpg.rf.c1f176f9ef9cdef9bd58f46b3858051a.jpg",
+  "split": "train",
+  "source_file": "ppe_0739_jpg.rf.c1f176f9ef9cdef9bd58f46b3858051a.jpg",
+  "counts": {
+   "helmet": 6,
+   "no-helmet": 0,
+   "no-vest": 0,
+   "person": 6,
+   "vest": 3
+  }
+ },
+ {
+  "file": "train__ppe_0741_jpg.rf.559ab6759fb37f1a14b85064dfa34416.jpg",
+  "split": "train",
+  "source_file": "ppe_0741_jpg.rf.559ab6759fb37f1a14b85064dfa34416.jpg",
+  "counts": {
+   "helmet": 1,
+   "no-helmet": 1,
+   "no-vest": 2,
+   "person": 2,
+   "vest": 0
+  }
+ },
+ {
+  "file": "train__ppe_0747_jpg.rf.d7d2539bfc29597e3d04ccb628cc1a5e.jpg",
+  "split": "train",
+  "source_file": "ppe_0747_jpg.rf.d7d2539bfc29597e3d04ccb628cc1a5e.jpg",
+  "counts": {
+   "helmet": 1,
+   "no-helmet": 2,
+   "no-vest": 3,
+   "person": 3,
+   "vest": 0
+  }
+ },
+ {
+  "file": "train__ppe_0773_jpg.rf.489706b8baeeae026c14bd3da3affe0c.jpg",
+  "split": "train",
+  "source_file": "ppe_0773_jpg.rf.489706b8baeeae026c14bd3da3affe0c.jpg",
+  "counts": {
+   "helmet": 1,
+   "no-helmet": 0,
+   "no-vest": 2,
+   "person": 2,
+   "vest": 0
+  }
+ },
+ {
+  "file": "train__ppe_0815_jpg.rf.a55dbd44ed1478615cce181ff2bf4d01.jpg",
+  "split": "train",
+  "source_file": "ppe_0815_jpg.rf.a55dbd44ed1478615cce181ff2bf4d01.jpg",
+  "counts": {
+   "helmet": 0,
+   "no-helmet": 5,
+   "no-vest": 0,
+   "person": 5,
+   "vest": 6
+  }
+ },
+ {
+  "file": "train__ppe_0854_jpg.rf.e2b270f3465f4691e5b1678edf44c49c.jpg",
+  "split": "train",
+  "source_file": "ppe_0854_jpg.rf.e2b270f3465f4691e5b1678edf44c49c.jpg",
+  "counts": {
+   "helmet": 2,
+   "no-helmet": 0,
+   "no-vest": 0,
+   "person": 2,
+   "vest": 1
+  }
+ },
+ {
+  "file": "train__ppe_0874_jpg.rf.67d48dd2bcb25d1db3fd91306ca08687.jpg",
+  "split": "train",
+  "source_file": "ppe_0874_jpg.rf.67d48dd2bcb25d1db3fd91306ca08687.jpg",
+  "counts": {
+   "helmet": 4,
+   "no-helmet": 0,
+   "no-vest": 4,
+   "person": 4,
+   "vest": 0
+  }
+ },
+ {
+  "file": "train__ppe_0943_jpg.rf.8cf6447dcb332e138c325af00be8edda.jpg",
+  "split": "train",
+  "source_file": "ppe_0943_jpg.rf.8cf6447dcb332e138c325af00be8edda.jpg",
+  "counts": {
+   "helmet": 3,
+   "no-helmet": 0,
+   "no-vest": 0,
+   "person": 3,
+   "vest": 3
+  }
+ },
+ {
+  "file": "train__ppe_1003_jpg.rf.60ee47d8ff61a87c70238ab6ece0b03c.jpg",
+  "split": "train",
+  "source_file": "ppe_1003_jpg.rf.60ee47d8ff61a87c70238ab6ece0b03c.jpg",
+  "counts": {
+   "helmet": 2,
+   "no-helmet": 0,
+   "no-vest": 2,
+   "person": 2,
+   "vest": 0
+  }
+ },
+ {
+  "file": "train__ppe_1029_jpg.rf.43fa0e66954a26b6622ecc369e2bbf88.jpg",
+  "split": "train",
+  "source_file": "ppe_1029_jpg.rf.43fa0e66954a26b6622ecc369e2bbf88.jpg",
+  "counts": {
+   "helmet": 3,
+   "no-helmet": 0,
+   "no-vest": 0,
+   "person": 1,
+   "vest": 1
+  }
+ },
+ {
+  "file": "train__ppe_1070_jpg.rf.654ae247796a3ac1b5915cb72b229e5e.jpg",
+  "split": "train",
+  "source_file": "ppe_1070_jpg.rf.654ae247796a3ac1b5915cb72b229e5e.jpg",
+  "counts": {
+   "helmet": 1,
+   "no-helmet": 4,
+   "no-vest": 2,
+   "person": 5,
+   "vest": 2
+  }
+ },
+ {
+  "file": "train__ppe_1103_jpg.rf.5caaddc9c6ece7182c0c02fcef3b6f1a.jpg",
+  "split": "train",
+  "source_file": "ppe_1103_jpg.rf.5caaddc9c6ece7182c0c02fcef3b6f1a.jpg",
+  "counts": {
+   "helmet": 1,
+   "no-helmet": 0,
+   "no-vest": 1,
+   "person": 1,
+   "vest": 0
+  }
+ },
+ {
+  "file": "train__ppe_1116_jpg.rf.4db3b0036bdb4bea70b506906b9cb60a.jpg",
+  "split": "train",
+  "source_file": "ppe_1116_jpg.rf.4db3b0036bdb4bea70b506906b9cb60a.jpg",
+  "counts": {
+   "helmet": 0,
+   "no-helmet": 0,
+   "no-vest": 0,
+   "person": 2,
+   "vest": 2
+  }
+ },
+ {
+  "file": "train__ppe_1153_jpg.rf.1ae76a7957fda923c9e5babb7be38b18.jpg",
+  "split": "train",
+  "source_file": "ppe_1153_jpg.rf.1ae76a7957fda923c9e5babb7be38b18.jpg",
+  "counts": {
+   "helmet": 1,
+   "no-helmet": 0,
+   "no-vest": 1,
+   "person": 1,
+   "vest": 0
+  }
+ },
+ {
+  "file": "train__ppe_1190_jpg.rf.3332ac5b9975b4edd9ebb4899d019042.jpg",
+  "split": "train",
+  "source_file": "ppe_1190_jpg.rf.3332ac5b9975b4edd9ebb4899d019042.jpg",
+  "counts": {
+   "helmet": 0,
+   "no-helmet": 1,
+   "no-vest": 0,
+   "person": 3,
+   "vest": 2
+  }
+ },
+ {
+  "file": "train__ppe_1212_jpg.rf.567d4a3a34db38a2373a4b56cd28865b.jpg",
+  "split": "train",
+  "source_file": "ppe_1212_jpg.rf.567d4a3a34db38a2373a4b56cd28865b.jpg",
+  "counts": {
+   "helmet": 3,
+   "no-helmet": 1,
+   "no-vest": 2,
+   "person": 4,
+   "vest": 2
+  }
+ },
+ {
+  "file": "train__ppe_1216_jpg.rf.7503893f602d86f9573ba367288bb76f.jpg",
+  "split": "train",
+  "source_file": "ppe_1216_jpg.rf.7503893f602d86f9573ba367288bb76f.jpg",
+  "counts": {
+   "helmet": 3,
+   "no-helmet": 0,
+   "no-vest": 0,
+   "person": 4,
+   "vest": 0
+  }
+ },
+ {
+  "file": "train__ppe_1224_jpg.rf.6bfcd88dd663722056032d8f90b03a86.jpg",
+  "split": "train",
+  "source_file": "ppe_1224_jpg.rf.6bfcd88dd663722056032d8f90b03a86.jpg",
+  "counts": {
+   "helmet": 5,
+   "no-helmet": 0,
+   "no-vest": 4,
+   "person": 5,
+   "vest": 0
+  }
+ },
+ {
+  "file": "train__ppe_1258_jpg.rf.153598114ae34312cf4e8eb761373d72.jpg",
+  "split": "train",
+  "source_file": "ppe_1258_jpg.rf.153598114ae34312cf4e8eb761373d72.jpg",
+  "counts": {
+   "helmet": 0,
+   "no-helmet": 3,
+   "no-vest": 0,
+   "person": 4,
+   "vest": 3
+  }
+ },
+ {
+  "file": "train__ppe_1277_jpg.rf.a1e26601bcdb3709f0d89244edc969cf.jpg",
+  "split": "train",
+  "source_file": "ppe_1277_jpg.rf.a1e26601bcdb3709f0d89244edc969cf.jpg",
+  "counts": {
+   "helmet": 2,
+   "no-helmet": 0,
+   "no-vest": 2,
+   "person": 2,
+   "vest": 0
+  }
+ },
+ {
+  "file": "train__ppe_1302_jpg.rf.65ba331fca48d825e731c8cd3b90058a.jpg",
+  "split": "train",
+  "source_file": "ppe_1302_jpg.rf.65ba331fca48d825e731c8cd3b90058a.jpg",
+  "counts": {
+   "helmet": 0,
+   "no-helmet": 2,
+   "no-vest": 0,
+   "person": 2,
+   "vest": 2
+  }
+ },
+ {
+  "file": "valid__ppe_0006_jpg.rf.871ceb45bc57834202c2a3e3edb732d7.jpg",
+  "split": "valid",
+  "source_file": "ppe_0006_jpg.rf.871ceb45bc57834202c2a3e3edb732d7.jpg",
+  "counts": {
+   "helmet": 2,
+   "no-helmet": 0,
+   "no-vest": 1,
+   "person": 2,
+   "vest": 1
+  }
+ },
+ {
+  "file": "valid__ppe_0089_jpg.rf.e96edceb1d9a8c8311d9d9cb35c0883d.jpg",
+  "split": "valid",
+  "source_file": "ppe_0089_jpg.rf.e96edceb1d9a8c8311d9d9cb35c0883d.jpg",
+  "counts": {
+   "helmet": 1,
+   "no-helmet": 1,
+   "no-vest": 0,
+   "person": 2,
+   "vest": 2
+  }
+ },
+ {
+  "file": "valid__ppe_0260_jpg.rf.4ed7ac35f19b27b524b8779e0f1dd31d.jpg",
+  "split": "valid",
+  "source_file": "ppe_0260_jpg.rf.4ed7ac35f19b27b524b8779e0f1dd31d.jpg",
+  "counts": {
+   "helmet": 15,
+   "no-helmet": 1,
+   "no-vest": 0,
+   "person": 19,
+   "vest": 7
+  }
+ },
+ {
+  "file": "valid__ppe_0370_jpg.rf.d5cdcbae41a4894fa6e2453ff63f70ff.jpg",
+  "split": "valid",
+  "source_file": "ppe_0370_jpg.rf.d5cdcbae41a4894fa6e2453ff63f70ff.jpg",
+  "counts": {
+   "helmet": 1,
+   "no-helmet": 0,
+   "no-vest": 1,
+   "person": 1,
+   "vest": 0
+  }
+ },
+ {
+  "file": "valid__ppe_0468_jpg.rf.2f23b2f1011d7c38a7c0a3a5fc8258de.jpg",
+  "split": "valid",
+  "source_file": "ppe_0468_jpg.rf.2f23b2f1011d7c38a7c0a3a5fc8258de.jpg",
+  "counts": {
+   "helmet": 3,
+   "no-helmet": 0,
+   "no-vest": 0,
+   "person": 3,
+   "vest": 3
+  }
+ },
+ {
+  "file": "valid__ppe_0565_jpg.rf.58e3570954550267399e205a5c7283ed.jpg",
+  "split": "valid",
+  "source_file": "ppe_0565_jpg.rf.58e3570954550267399e205a5c7283ed.jpg",
+  "counts": {
+   "helmet": 2,
+   "no-helmet": 1,
+   "no-vest": 3,
+   "person": 3,
+   "vest": 0
+  }
+ }
+]
