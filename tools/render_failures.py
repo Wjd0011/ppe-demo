@@ -159,7 +159,11 @@ def main():
     ap.add_argument("--out-dir", default=os.path.join(ROOT, "web", "assets3"))
     args = ap.parse_args()
 
-    pred_path = args.pred or os.path.join(ROOT, "out", "ab_pred_A_test.json")
+    pred_path = args.pred or os.path.join(ROOT, "out", "pred_%s.json" % args.split)
+    if not os.path.isfile(pred_path):
+        raise SystemExit(
+            "找不到预测文件 %s\n先跑：python tools/yolo_onnx_predict.py --images %s\\images "
+            "--out out\\pred_%s.json" % (pred_path, args.split, args.split))
     with open(pred_path, encoding="utf-8") as f:
         preds = json.load(f)
 

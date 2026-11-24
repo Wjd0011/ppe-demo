@@ -168,8 +168,7 @@ ppe-demo/
 │   ├── construction_ppe_yolov8n.onnx   预训练权重 12.2 MB（CC BY 4.0，10 类）
 │   ├── demo_trained_yolov8n.onnx       本项目 8 轮训练导出的 ONNX 12.8 MB（5 类）
 │   ├── ppe_yolov8n.yaml                X-AnyLabeling 自定义模型配置（中文类别 + filter_classes）
-│   ├── ppe_demo_trained.yaml           本项目训练产物接入配置（5 类，指向同目录 demo_trained_yolov8n.onnx）
-│   └── ppe_yolov8n.yaml.bak-en         英文类别原版备份
+│   └── ppe_demo_trained.yaml           本项目训练产物接入配置（5 类，指向同目录 demo_trained_yolov8n.onnx）
 ├── weights/yolov8n.pt                  训练起点（COCO 官方权重，AGPL；不随仓库发布，ultralytics 首次使用会自动下载）
 ├── runs/demo_train/                    8 轮 CPU 训练产物：best.pt / best.onnx / results.csv / 曲线（体积大，未随仓库发布；
 │                                       ONNX 副本已放 models/demo_trained_yolov8n.onnx，训练日志见 docs/demo_train_*.csv|yaml）

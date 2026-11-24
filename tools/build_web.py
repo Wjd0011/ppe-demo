@@ -497,8 +497,8 @@ filter_classes:
       <code>UnicodeDecodeError: 'gbk' codec can't decode byte ...</code>。已改为
       <code>encoding="utf-8"</code>（其余几个读取点本来就有）。</li>
 </ol>
-<p class="small">翻译前的 92 个 JSON 已打包留底过一次（用完即删，脚本可重跑）；
-模型 yaml 英文版备份 <code>models/ppe_yolov8n.yaml.bak-en</code>。</p>
+<p class="small">翻译前的 92 个 JSON 用过一次即删（脚本可重跑）；英文类别版本没有留备份，
+要恢复把 <code>models/ppe_yolov8n.yaml</code> 的 <code>classes</code> 换成英文名即可。</p>
 
 <h2 id="viewer">七、标注效果（原图 / 真值 / 预测）</h2>
 <div class="legend" style="margin-bottom:12px">

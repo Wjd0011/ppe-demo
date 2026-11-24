@@ -28,6 +28,9 @@ desktop.ini
 # Keep the artefacts the page depends on:
 #   out/*.json        metrics, A/B results, failure stats
 !out/*.json
+# ...except this one: it is a headless-GUI snapshot holding an absolute path,
+# and tools/check_gui_load.py regenerates it locally.
+out/gui_check.json
 
 # Never commit torch checkpoints (there are none today, but keep it safe)
 # weights/yolov8n.pt is deliberately NOT shipped: ultralytics downloads it on
