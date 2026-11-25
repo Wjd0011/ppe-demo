@@ -6,14 +6,16 @@
 
 不需要 torch，不需要 CUDA。`uv pip install -r requirements.txt` 之后一条 `python run.py --all` 即可复现全部数字。
 
+**在线看效果：<https://wjd0011.github.io/ppe-demo/>**（GitHub Pages，手机也能开）
+
 ---
 
-## 一句话演示
+## 在线网页报告（点开就能看，手机也行）
 
-![演示](web/assets/pred_test__ppe_0008_jpg.rf.628c03cd91df99daf62577fddb1d3032.jpg)
+**<https://wjd0011.github.io/ppe-demo/>**
 
-左边原图、右边模型输出的三视图对比在 [`web/index.html`](web/index.html)（双击打开，纯静态、离线可看）：
-32 张精挑图 + 6 张最差样本，每张都能切换「原图 / 数据集真值 / 模型预测」并显示逐类框数。
+由 GitHub Actions 从 `web/` 发布（`.github/workflows/pages.yml`），推 `main` 即自动更新。
+同一份文件双击 `web/index.html` 也能离线看，纯静态、无外部依赖。
 
 **实验室里的 30 秒版本**：双击桌面快捷方式「X-AnyLabeling 标注演示」——
 程序直接停在 `demo2/images` 的第一张图上（标题栏 `[1/60]`），框与中文标签都已画好，`D` / `A` 翻页。
